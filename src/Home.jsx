@@ -4,7 +4,6 @@ import { FaArrowRight } from "react-icons/fa6";
 import './components/NavBar.css'
 import './components/Content_Left.css'
 import './components/Content_Right.css'
-import Content_Rigth from './components/Content_Right'
 
 function Home() {
 
