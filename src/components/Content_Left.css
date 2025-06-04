@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.title {
+    font-size: 54px;
+    font-weight: 500;
+    font-family: 'inter', ital;
+}
+
+.main__content__left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main__content__left__ {
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.saiba__mais{
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    justify-content: space-between;
+    margin-right: 20px;
+    gap: 40px;
+}
+
+.conheca__Bruna{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+}
+
+.paragraph__content__left {
+    font-size: 16px;
+    font-family: 'inter', ital;
+    font-weight: 300;
+    color: #8D8D8D
+}
+
+.btn__saibaMais{
+    display: flex;
+    width: 160px;
+    height: 54px;
+    border-radius: 50px;
+    background-color: #1B2543;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.btn__conheca__Bruna{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #1B2543;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.conheca__Bruna__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conheca__Bruna__title{
+    font-family: 'inter', ital;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.conheca__Bruna__paragraph{
+font-family: 'inter', ital;
+    font-size: 12px;
+    font-weight: 300;
+    color: #8D8D8D
+}
+
+.statistics{
+    display: flex;
+    gap: 28px;
+}
+
+.statistics__itens{
+    width: 160px;
+    height: 100px;
+}
+
+.statistics__itens__title{
+    font-family: 'inter', ital;
+    font-size: 44px;
+    font-weight: 600;
+}
