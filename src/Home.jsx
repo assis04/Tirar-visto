@@ -1,9 +1,10 @@
-import rodaGigante from './assets/rodaGigante.png'
 import logo from './assets/logo.png'
 import conheca_a_Bruna from './assets/Conheca_a_Bruna.png';
 import { FaArrowRight } from "react-icons/fa6";
-import './components/Content_Left.css'
 import './components/NavBar.css'
+import './components/Content_Left.css'
+import './components/Content_Right.css'
+import Content_Rigth from './components/Content_Right'
 
 function Home() {
 
@@ -72,12 +73,20 @@ function Home() {
             </div>
           </section>
         </div>
-        <div className='content-right'>
-          <img src={rodaGigante} />
-          <button>Tirar meu visto agora!</button>
-          <h1>Realize o seu sonho com a ajuda da Tirar Visto!</h1>
-          <p>Com um serviço profissional, você não terá dor de cabeça para todo o processo do visto e entrevistas no consulado.</p>
+        <div className='content-right' >
+            <div className='btn_content_right'>
+                <button className='btn_content_right btn'>
+                    <p>
+                        Tirar meu visto agora!
+                    </p>
+                </button>
+            </div>
+            <div className='main_content_right'>
+                <h1 className='title_content_right'>Realize o seu sonho com a ajuda da Tirar Visto!</h1>
+                <p>Com um serviço profissional, você não terá dor de cabeça para todo o processo do visto e entrevistas no consulado.</p>
+            </div>
         </div>
+        
       </div>
     </section>
   );

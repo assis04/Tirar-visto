@@ -1,9 +1,9 @@
-
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    box-sizing: border-box;
 }
 
 .main{
@@ -14,8 +14,5 @@
 .content__left{
     max-width: 50%;
     margin-left: 60px;
+    margin-right: 60px;
 }
-
-/* .title{
-    font-family: ;
-} */

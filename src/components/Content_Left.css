@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    width: 80%;
 }
 
 .main__content__left__ {
@@ -54,6 +55,7 @@
     align-items: center;
     justify-content: center;
     gap:10px;
+    border-color: transparent;
 }
 
 .btn__conheca__Bruna{
@@ -68,6 +70,7 @@
     box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
     align-items: center;
     justify-content: center;
+    border-color: transparent;
 }
 .conheca__Bruna__content{
     display: flex;
