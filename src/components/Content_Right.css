@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+  .content-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 700px;
+    Background-image: url(../assets/rodaGigante.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn_content_right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn_content_right .btn{
+    display: flex;
+    margin: 20px;
+    width: 210px;
+    height: 44px;
+    border-radius: 40px;
+    background-color: #F6C010;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', ital;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+}
+
+.main_content_right {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            margin-top: auto;
+            background: linear-gradient(transparent, rgba(0,0,0,0.6));
+}
+
+.title_content_right{
+    font-family: 'Inter', ital;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+.main_content_right p {
+    color: #ffffff;
+    font-family: 'Inter', ital;
+    font-size: 16px;
+    opacity: 0.9;
+}
