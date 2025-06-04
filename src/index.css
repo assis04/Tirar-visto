@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main{
+    display: flex;
+    max-height: 940px;
+}
+
+.content__left{
+    max-width: 50%;
+    margin-left: 60px;
+}
+
+/* .title{
+    font-family: ;
+} */

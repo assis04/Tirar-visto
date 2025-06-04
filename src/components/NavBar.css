@@ -1,0 +1,39 @@
+/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.navbar {
+    max-width: 658px;
+    display: flex;
+    margin-right: 60px;
+    margin-top: 24px;
+    margin-bottom: 4rem;
+    padding-bottom: 0;
+    gap: 0.5rem;
+}
+
+.navbar-logo img {
+    height: 42px;
+    align-items: center;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-left: 10px;
+}
+
+.navbar-link {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'inter', ital;
+    transition: border-bottom 0.2s ease-in-out;
+
+}
+
+.navbar-link:hover {
+    border-bottom: solid  #7c7b7b;
+}
