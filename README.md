@@ -9,7 +9,7 @@ npm ou yarn
 # Instalação
 
 # Clone o repositório
-git clone https://github.com/seu-usuario/tirar-visto.git
+git clone [https://github.com/seu-usuario/tirar-visto.git](https://github.com/assis04/Tirar-visto.git)
 
 # Entre no diretório
 cd tirar-visto
